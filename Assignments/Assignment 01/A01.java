@@ -18,6 +18,14 @@
  */
 public class A01 {
     public static void main(String[] args) {
-        // YOUR CODE HERE
+        java.util.Scanner sc = new java.util.Scanner(System.in);
+        System.out.print("\n\nHello there! What is your first name? ");
+        String firstName = sc.nextLine();
+        System.out.print("\n\nWhat is your favorite movie? ");
+        String favoriteMovie = sc.nextLine();
+        System.out.print("\n\nWhat is your hometown? ");
+        String homeTown = sc.nextLine();
+        System.out.printf("\n\nHello, my name is " + firstName + ", I am from " + homeTown + ", and my favorite movie is " + favoriteMovie + ".\n\n");
+        
     } // method main
 } // class A01
